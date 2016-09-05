@@ -1,0 +1,15 @@
+{
+    "name": "functional/forms",
+    "require": {
+        "php": "^7.1",
+        "functional/core": "dev-master"
+    },
+    "autoload": {
+        "files": [
+            "functions/conditions/required.php",
+            "functions/types/text.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

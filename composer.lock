@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "020f674b6e24a147c12a79e10539cd10",
+    "content-hash": "c5777760a1409a07495b42196421e0c8",
+    "packages": [
+        {
+            "name": "functional/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/assertchris/functional.git",
+                "reference": "69b137034f0203d6e435a63b4aa1c7ec8489d645"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/assertchris/functional/zipball/69b137034f0203d6e435a63b4aa1c7ec8489d645",
+                "reference": "69b137034f0203d6e435a63b4aa1c7ec8489d645",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0|^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/dependencies/bootstrap.php",
+                    "src/dependencies/register.php",
+                    "src/dependencies/resolve.php",
+                    "src/dependencies/store/get.php",
+                    "src/dependencies/store/remove.php",
+                    "src/dependencies/store/set.php",
+                    "src/structures/create.php",
+                    "src/structures/property_is_not_defined.php",
+                    "src/structures/property_is_not_set.php",
+                    "src/structures/structure_already_exists.php",
+                    "src/structures/structure.php",
+                    "src/structures/value_is_wrong_type.php",
+                    "src/store.php",
+                    "src/type.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2016-09-05 02:07:03"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "functional/core": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.0"
+    },
+    "platform-dev": []
+}
